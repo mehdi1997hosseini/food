@@ -1,0 +1,419 @@
+.row {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.row > .menuService {
+  width: 25%;
+  height: 460vh;
+  position: relative;
+}
+.row > .menuService > .menuService_menuServiceVertical {
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+.row > .menuService > .menuService_menuServiceVertical > .menuServiceVertical_logo {
+  width: 100%;
+  min-height: 1px;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row > .menuService > .menuService_menuServiceVertical > .menuServiceVertical_logo > a {
+  width: 50%;
+}
+.row > .menuService > .menuService_menuServiceVertical > .menuServiceVertical_logo > a img {
+  width: 100%;
+}
+.row > .menuService > .menuService_menuServiceVertical > .menuServiceVertical_vertical {
+  width: 100%;
+}
+.row > .menuService > .menuService_menuServiceVertical > .menuServiceVertical_vertical > ul > li {
+  width: 100%;
+  height: 70px;
+  border: 1px solid rgb(49, 53, 57);
+}
+.row > .menuService > .menuService_menuServiceVertical > .menuServiceVertical_vertical > ul > li a {
+  color: #FFFFFF;
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+.row > .menuService > .menuService_menuServiceVertical > .menuServiceVertical_vertical > ul > li a:hover {
+  color: #A18058;
+}
+.row > .menuService > .menuService_menuServiceVertical > .menuServiceVertical_contact {
+  margin: 20px 0 0 0;
+  width: 100%;
+  padding: 20px 5px;
+}
+.row > .menuService > .menuService_menuServiceVertical > .menuServiceVertical_contact > ul {
+  display: flex;
+  justify-content: space-around;
+}
+.row > .menuService > .menuService_menuServiceVertical > .menuServiceVertical_contact > ul > li > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row > .allPage {
+  width: 75%;
+  height: 110vh;
+}
+.row > .allPage > .firstRowAndFirstImagePage {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../image/cafe-hero-home.jpg);
+  background-size: cover;
+  position: relative;
+}
+.row > .allPage > .secondRow {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.row > .allPage > .secondRow > .aboutLeft {
+  width: 70%;
+  height: auto;
+  padding: 70px;
+}
+.row > .allPage > .secondRow > .aboutLeft > .aboutLeft_firstTitle > h1 {
+  color: #FFFFFF;
+  font-size: 50px;
+  font-weight: 100;
+}
+.row > .allPage > .secondRow > .aboutLeft > .aboutLeft_firstTitle > h5 {
+  color: #A18058;
+  margin: 30px 0;
+  font-size: 14px;
+  font-weight: 100;
+}
+.row > .allPage > .secondRow > .aboutLeft > .aboutLeft_imageFood {
+  display: flex;
+}
+.row > .allPage > .secondRow > .aboutLeft > .aboutLeft_aboutImageFood {
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.row > .allPage > .secondRow > .aboutLeft > .aboutLeft_aboutImageFood > p {
+  color: #bfbfbf;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: 100;
+}
+.row > .allPage > .secondRow > .aboutLeft > .aboutLeft_buttom {
+  width: 100%;
+  height: 50px;
+  margin-top: 40PX;
+  position: relative;
+}
+.row > .allPage > .secondRow > .bench {
+  width: 30%;
+  height: auto;
+  position: relative;
+}
+.row > .allPage > .secondRow > .bench > img {
+  /* width: 100%;
+  height: 100%; */
+  /*  position: absolute;
+  top: 0;
+  left: 0; */
+  z-index: 2;
+}
+.row > .allPage > .thirdRow {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 10% 20px;
+}
+.row > .allPage > .thirdRow > .bar {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../image/bar.jpg);
+  background-size: cover;
+}
+.row > .allPage > .thirdRow > .imageUpperText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.row > .allPage > .thirdRow > .imageUpperText > .imageUpperText_titleReservetion h2 {
+  color: #FFFFFF;
+  font-size: 40px;
+  line-height: 30px;
+  font-weight: 100;
+}
+.row > .allPage > .thirdRow > .imageUpperText > .straightLine {
+  margin: 40px auto 20px auto;
+}
+.row > .allPage > .thirdRow > .imageUpperText > .imageUpperText_aboutBarReservation {
+  margin-left: 10%;
+  margin-right: 10%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.row > .allPage > .thirdRow > .imageUpperText > .imageUpperText_aboutBarReservation span {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 100;
+}
+.row > .allPage > .thirdRow > .imageUpperText > .imageUpperText_buttomReservation {
+  width: 100%;
+  height: 70px;
+  margin-top: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row > .allPage > .fourthRow {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog1 {
+  width: 100%;
+  position: relative;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog1 > .fourthRow_blog1_image {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  background-color: #A18058;
+  position: relative;
+  overflow: hidden;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog1 > .fourthRow_blog1_image > img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 1s;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog1 > .fourthRow_blog1_image:hover > img {
+  top: -10%;
+  left: -10%;
+  width: 120%;
+  height: 120%;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog1 > .fourthRow_blog1_image:hover > .dark {
+  opacity: 0.4;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog1 > .fourthRow_blog1_text {
+  width: 100%;
+  height: 20%;
+  margin: 10% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog1 > .fourthRow_blog1_text > a {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog1 > .fourthRow_blog1_text > a:hover {
+  color: #A18058;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog2 {
+  width: 100%;
+  position: relative;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog2 > .fourthRow_blog2_image {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  background-color: #A18058;
+  position: relative;
+  overflow: hidden;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog2 > .fourthRow_blog2_image > img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 1s;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog2 > .fourthRow_blog2_image:hover > img {
+  top: -10%;
+  left: -10%;
+  width: 120%;
+  height: 120%;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog2 > .fourthRow_blog2_image:hover > .dark {
+  opacity: 0.4;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog2 > .fourthRow_blog2_text {
+  width: 100%;
+  height: 20%;
+  margin: 10% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog2 > .fourthRow_blog2_text > a {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog2 > .fourthRow_blog2_text > a:hover {
+  color: #A18058;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog3 {
+  width: 100%;
+  position: relative;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog3 > .fourthRow_blog3_image {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  background-color: #A18058;
+  position: relative;
+  overflow: hidden;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog3 > .fourthRow_blog3_image > img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 1s;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog3 > .fourthRow_blog3_image:hover > img {
+  top: -10%;
+  left: -10%;
+  width: 120%;
+  height: 120%;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog3 > .fourthRow_blog3_image:hover > .dark {
+  opacity: 0.4;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog3 > .fourthRow_blog3_text {
+  width: 100%;
+  height: 20%;
+  margin: 10% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog3 > .fourthRow_blog3_text > a {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog3 > .fourthRow_blog3_text > a:hover {
+  color: #A18058;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog4 {
+  width: 100%;
+  position: relative;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog4 > .fourthRow_blog4_image {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  background-color: #A18058;
+  position: relative;
+  overflow: hidden;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog4 > .fourthRow_blog4_image > img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 1s;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog4 > .fourthRow_blog4_image:hover > img {
+  top: -10%;
+  left: -10%;
+  width: 120%;
+  height: 120%;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog4 > .fourthRow_blog4_image:hover > .dark {
+  opacity: 0.4;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog4 > .fourthRow_blog4_text {
+  width: 100%;
+  height: 20%;
+  margin: 10% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog4 > .fourthRow_blog4_text > a {
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+.row > .allPage > .fourthRow > .fourthRow_blog4 > .fourthRow_blog4_text > a:hover {
+  color: #A18058;
+}
+
+.straightLine {
+  margin: 20px auto 40px 0;
+  width: 30%;
+  border: 1px solid #A18058;
+  border-bottom-width: 0;
+}
+
+.buttom {
+  width: 40%;
+  height: 100%;
+  border: 1px solid white;
+}
+.buttom a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+.buttom a:hover {
+  background-color: rgba(80, 77, 77, 0.418);
+}
+
+.dark {
+  width: 100%;
+  height: 100%;
+  background-color: #a18058;
+  opacity: 0;
+  z-index: 2;
+  transition: 1s;
+}/*# sourceMappingURL=homePage.css.map */
